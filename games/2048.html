@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2048 · Retro Adda</title>
+<meta name="description" content="Slide the tiles, merge the matches, chase the 2048 tile.">
+<meta name="theme-color" content="#008080">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="../index.html">RETRO <span>ADDA</span></a>
+  <nav aria-label="Main"><a href="../index.html">GAMES</a><a href="../about.html">ABOUT</a><a href="../privacy.html">PRIVACY</a></nav>
+</header>
+<main>
+<div class="ad-slot" data-ad-slot hidden></div>
+<section class="win" aria-labelledby="gt">
+  <div class="titlebar"><span id="gt">🔢 2048.EXE</span><span class="xbtns" aria-hidden="true"><span>_</span><span>□</span><span>X</span></span></div>
+  <div class="panel">
+    <div class="hud"><span>SCORE <b id="score">0</b></span><span>BEST <b id="best">0</b></span></div>
+    <div class="msg" id="msg" role="status"></div>
+<div class="board-2048" id="board" aria-label="2048 board"></div>
+<div class="dpad" aria-label="Directions">
+  <button class="btn up" data-dir="up" aria-label="Up">▲</button>
+  <button class="btn left" data-dir="left" aria-label="Left">◀</button>
+  <button class="btn down" data-dir="down" aria-label="Down">▼</button>
+  <button class="btn right" data-dir="right" aria-label="Right">▶</button>
+</div>
+<div class="controls"><button class="btn" id="again" type="button">NEW GAME</button>
+    <button class="btn" id="sound" type="button">SOUND: OFF</button></div>
+<p class="help">ARROWS / WASD or SWIPE the board. Same numbers merge into their double.</p>
+  </div>
+</section>
+<p class="sites small"><a href="../index.html">← ALL GAMES</a></p>
+<div class="ad-slot" data-ad-slot hidden></div>
+</main>
+<footer>
+  <p>RETRO ADDA · FREE GAMES · NO LOGIN · NO DOWNLOAD</p>
+  <p><a href="../about.html">About</a> · <a href="../privacy.html">Privacy</a></p>
+</footer>
+<script src="../js/ad-config.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/ads.js"></script>
+<script src="../js/games/g2048.js"></script>
+</body>
+</html>
