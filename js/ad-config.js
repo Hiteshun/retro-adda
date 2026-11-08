@@ -1,2 +1,2 @@
-// Ads removed. No ad code runs.
-window.AD_CONFIG = { monetagSnippet: `` };
+// Adsterra tags (provided by owner). Ads are built in js/ads.js.
+window.AD_CONFIG = { adsterra: true };
